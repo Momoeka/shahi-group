@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: "Inter", system-ui, sans-serif;
+  --font-fraunces: "Fraunces", "Times New Roman", serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: #0C0C0C;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection */
+::selection { background: #C8102E; color: #fff; }
+
+/* Subtle film grain */
+.noise-texture {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.55) 1px, transparent 1px);
+  background-size: 4px 4px;
+}
+
+/* Shimmer for loading images */
+.img-shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Check animations */
+.animate-checkCircle {
+  animation: checkCircle 0.6s ease-out 0.3s forwards;
+}
+.animate-checkMark {
+  animation: checkMark 0.4s ease-out 0.7s forwards;
+}
+
+@keyframes checkCircle {
+  to { stroke-dashoffset: 0; }
+}
+@keyframes checkMark {
+  to { stroke-dashoffset: 0; }
+}
