@@ -34,11 +34,22 @@ export default function HeroSection() {
           style={{ y: imageY, scale: imageScale }}
           className="absolute inset-0 will-change-transform"
         >
+          {/* Mobile hero — portrait crop */}
+          <Image
+            src="/images/mobile-hero.png"
+            alt="Surveyor with Leica DGPS — Shahi Group"
+            fill
+            className="object-cover object-center md:hidden"
+            priority
+            quality={95}
+            sizes="100vw"
+          />
+          {/* Desktop / tablet hero */}
           <Image
             src="/images/hero.png"
             alt="Surveyor with Leica DGPS — Shahi Group"
             fill
-            className="object-cover object-center"
+            className="object-cover object-center hidden md:block"
             priority
             quality={95}
             sizes="100vw"
