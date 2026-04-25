@@ -1,0 +1,47 @@
+<section class="testimonials" id="testimonials" data-scroll-section>
+  <div class="container">
+    <header class="section-head" data-reveal>
+      <span class="section-head__num">05 / Trusted voices</span>
+      <h2 class="section-head__title">What our <em>clients & students</em> say.</h2>
+    </header>
+
+    <div class="testimonials__grid">
+      <% site.testimonials.forEach((t, i) => { %>
+      <figure class="quote" data-reveal data-stagger="<%= i %>">
+        <span class="quote__mark" aria-hidden="true">&ldquo;</span>
+        <blockquote class="quote__body"><%= t.quote %></blockquote>
+        <figcaption class="quote__cite">
+          <span class="quote__avatar" aria-hidden="true"><%= t.initials %></span>
+          <span class="quote__who">
+            <strong><%= t.name %></strong>
+            <em><%= t.role %></em>
+          </span>
+        </figcaption>
+      </figure>
+      <% }) %>
+    </div>
+
+    <div class="trustbar" data-reveal>
+      <div class="trustbar__head">
+        <span class="eyebrow">
+          <svg class="reticle" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+            <circle cx="8" cy="8" r="5.5" fill="none" stroke="currentColor" stroke-width="1"/>
+            <path d="M8 0v4M8 12v4M0 8h4M12 8h4" stroke="currentColor" stroke-width="1"/>
+          </svg>
+          <span>Trusted by</span>
+        </span>
+      </div>
+      <div class="trustbar__track">
+        <% for (let pass = 0; pass < 2; pass++) { %>
+          <div class="trustbar__group" aria-hidden="<%= pass === 1 ? 'true' : 'false' %>">
+            <% site.clients.forEach((c) => { %>
+              <div class="trustbar__logo" title="<%= c.name %>">
+                <img src="<%= c.logo %>" alt="<%= c.name %>" loading="lazy" />
+              </div>
+            <% }) %>
+          </div>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</section>

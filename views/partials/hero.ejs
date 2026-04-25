@@ -1,0 +1,63 @@
+<section class="hero" id="hero" data-scroll-section>
+  <div class="hero__pin">
+    <div class="hero__media" data-hero-media>
+      <img src="/images/hero.png" alt="Surveyor with Leica DGPS — Shahi Group" class="hero__img" />
+      <div class="hero__vignette" aria-hidden="true"></div>
+      <div class="hero__grid" aria-hidden="true">
+        <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+              <path d="M 80 0 L 0 0 0 80" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#grid)"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="hero__content">
+      <div class="hero__top">
+        <span class="eyebrow">
+          <svg class="reticle" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+            <circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1"/>
+            <circle cx="8" cy="8" r="1.5" fill="currentColor"/>
+            <path d="M8 0v4M8 12v4M0 8h4M12 8h4" stroke="currentColor" stroke-width="1"/>
+          </svg>
+          <span>Est. <%= site.brand.founded %> · Indrapuri, Bhopal</span>
+        </span>
+        <span class="eyebrow eyebrow--right">
+          <span>Operating across</span>
+          <em><%= site.brand.regions.join(' · ') %></em>
+        </span>
+      </div>
+
+      <div class="hero__title-wrap">
+        <h1 class="hero__title">
+          <span class="hero__line" data-line><span>Inching closer</span></span>
+          <span class="hero__line" data-line><span>towards <em>perfection.</em></span></span>
+        </h1>
+      </div>
+
+      <div class="hero__bottom">
+        <p class="hero__sub" data-line>
+          One company, three divisions. We sell the instruments, train the surveyors, and run the field crews on India's largest solar, dam, and infrastructure projects.
+        </p>
+        <div class="hero__cta" data-line>
+          <a href="#contact" class="btn btn--primary">
+            <span>Get in touch</span>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#services" class="btn btn--text">
+            <span>Explore divisions</span>
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+    </div>
+  </div>
+</section>

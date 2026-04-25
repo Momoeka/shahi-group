@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1A1A1A" />
+
+  <title><%= site.brand.name %> — <%= site.brand.tagline %></title>
+  <meta name="description" content="<%= site.brand.name %> — vertically integrated survey house. We sell, train, and operate Leica surveying equipment on solar, infrastructure, and government projects across India." />
+  <meta name="keywords" content="survey, DGPS, total station, Leica, solar, infrastructure, Bhopal, India, training, academy" />
+  <meta name="author" content="<%= site.brand.name %>" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<%= site.brand.name %> — <%= site.brand.tagline %>" />
+  <meta property="og:description" content="Vertically integrated survey house. Hardware, field operations, and training under one roof." />
+  <meta property="og:image" content="/images/hero.png" />
+
+  <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="image" href="/images/hero.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "<%= site.brand.name %>",
+    "url": "https://<%= site.brand.website %>",
+    "logo": "/images/logo.svg",
+    "slogan": "<%= site.brand.tagline %>",
+    "foundingDate": "<%= site.brand.founded %>",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "B-23, Second Floor, Sector-C, Indrapuri",
+      "addressLocality": "Bhopal",
+      "postalCode": "462022",
+      "addressRegion": "Madhya Pradesh",
+      "addressCountry": "IN"
+    },
+    "telephone": "+917000510947",
+    "email": "<%= site.brand.email %>",
+    "sameAs": [
+      "<%= site.brand.socials.facebook %>",
+      "<%= site.brand.socials.instagram %>",
+      "<%= site.brand.socials.youtube %>"
+    ]
+  }
+  </script>
+</head>

@@ -1,0 +1,116 @@
+<section class="contact" id="contact" data-scroll-section>
+  <div class="container">
+    <header class="section-head" data-reveal>
+      <span class="section-head__num">06 / Get in touch</span>
+      <h2 class="section-head__title">
+        Tell us about <em>your project.</em>
+      </h2>
+      <p class="section-head__sub">
+        Solar, dam, road, training, equipment — we reply within one business day.
+      </p>
+    </header>
+
+    <div class="contact__grid">
+      <form class="contact__form" id="contact-form" novalidate>
+        <div class="field">
+          <label for="f-name">Your name</label>
+          <input id="f-name" name="name" type="text" required autocomplete="name" />
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" required autocomplete="email" />
+          </div>
+          <div class="field">
+            <label for="f-phone">Phone</label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-topic">I'm interested in</label>
+          <select id="f-topic" name="topic" required>
+            <option value="">Select a service</option>
+            <option>Buying instruments (Enterprises)</option>
+            <option>Site / field operations (Construction)</option>
+            <option>Training (Academy)</option>
+            <option>Equipment rental</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-msg">Project brief</label>
+          <textarea id="f-msg" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary contact__submit">
+          <span>Send enquiry</span>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+        <p class="contact__status" aria-live="polite"></p>
+      </form>
+
+      <aside class="contact__aside">
+        <div class="contact__map" aria-hidden="true">
+          <svg viewBox="0 0 400 320" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <pattern id="map-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                <path d="M40 0H0V40" fill="none" stroke="#2C2C2C" stroke-width="0.5"/>
+              </pattern>
+              <radialGradient id="map-fade" cx="50%" cy="50%" r="60%">
+                <stop offset="0%" stop-color="#1A1A1A" stop-opacity="0"/>
+                <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0.95"/>
+              </radialGradient>
+            </defs>
+            <rect width="400" height="320" fill="#1A1A1A"/>
+            <rect width="400" height="320" fill="url(#map-grid)"/>
+            <g fill="none" stroke="#3D3D3D" stroke-width="1">
+              <path d="M0 180 Q 80 130, 160 160 T 320 150 T 420 170"/>
+              <path d="M0 220 Q 100 200, 180 220 T 360 200 T 420 220"/>
+              <path d="M50 0 Q 120 80, 90 160 T 140 320"/>
+              <path d="M280 0 Q 240 100, 270 180 T 310 320"/>
+            </g>
+            <g stroke="#6B6B6B" stroke-dasharray="3 4" fill="none">
+              <path d="M0 160 L400 160"/>
+              <path d="M200 0 L200 320"/>
+            </g>
+            <rect width="400" height="320" fill="url(#map-fade)"/>
+            <g transform="translate(200 160)">
+              <circle r="40" fill="#C8102E" fill-opacity="0.06" class="map-pulse"/>
+              <circle r="22" fill="#C8102E" fill-opacity="0.12" class="map-pulse-2"/>
+              <circle r="6"  fill="#C8102E"/>
+              <circle r="12" fill="none" stroke="#C8102E" stroke-width="1"/>
+              <path d="M-20 0 H-8 M8 0 H20 M0 -20 V-8 M0 8 V20" stroke="#C8102E" stroke-width="1"/>
+            </g>
+            <g fill="#B0B0B0" font-family="JetBrains Mono, monospace" font-size="10">
+              <text x="220" y="156">23.225° N</text>
+              <text x="220" y="170">77.401° E</text>
+            </g>
+            <text x="200" y="200" fill="#FFFFFF" font-family="Inter, sans-serif" font-weight="600" font-size="14" text-anchor="middle">BHOPAL · MP</text>
+          </svg>
+        </div>
+
+        <ul class="contact__list">
+          <li>
+            <span class="eyebrow">Office</span>
+            <p><%= site.brand.address %></p>
+          </li>
+          <li>
+            <span class="eyebrow">Phone</span>
+            <p>
+              <% site.brand.phones.forEach((ph, i) => { %>
+                <a href="tel:<%= ph.replace(/\s/g, '') %>"><%= ph %></a><% if (i < site.brand.phones.length - 1) { %><br/><% } %>
+              <% }) %>
+            </p>
+          </li>
+          <li>
+            <span class="eyebrow">Email</span>
+            <p><a href="mailto:<%= site.brand.email %>"><%= site.brand.email %></a></p>
+          </li>
+          <li>
+            <span class="eyebrow">Hours</span>
+            <p>Mon — Sat · 09:30 — 19:00 IST</p>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>

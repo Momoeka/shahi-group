@@ -1,0 +1,284 @@
+================================================================
+SHAHI GROUP — MASTER NOTES
+================================================================
+Last updated: 2026-04-26
+Source: shahisurvey.com (live site) + user confirmation 2026-04-22
+
+================================================================
+1. PARENT COMPANY — SHAHI GROUP
+================================================================
+
+Name:       Shahi Group
+HQ:         B-23, Second Floor, Sector-C, Indrapuri,
+            Bhopal 462022, Madhya Pradesh, India
+Founded:    2021
+Tagline:    "Inching Closer Towards Perfection"
+Copyright:  © 2024 Shahi Group
+
+Phones:     +91 7000510947
+            +91 9608633273
+Email:      info@shahisurvey.in
+Website:    shahisurvey.com
+
+Socials:
+  Facebook:  shahiacademy
+  Instagram: shahi_survey_academy
+  YouTube:   @shahisurveyacademy
+
+Operating regions:
+  - Madhya Pradesh (primary)
+  - Rajasthan
+  - Karnataka
+
+Currency for all pricing: INR (₹).
+
+Brand positioning:
+  Vertically integrated survey house — one company that
+  (a) sells the instruments, (b) operates them on real
+  infra projects, and (c) trains the next generation of
+  surveyors on the same gear. Heavy track record in
+  solar / wind / state-infra projects — lean into the
+  renewables + government-infra angle.
+
+Public guarantees stated on site:
+  - Timely project completion with deadline adherence
+  - High-quality equipment and construction standards
+
+----------------------------------------------------------------
+TEAM
+----------------------------------------------------------------
+  - Faisal Shahi   — Director
+  - Fahad Shahi    — Managing Director (MD)
+  - Farman Shahi   — General Manager (GM)
+  - Deepak Prakash — Site Engineer
+
+----------------------------------------------------------------
+CLIENTS (15+ confirmed, drawn from public site)
+----------------------------------------------------------------
+  Renewables / power:
+    TATA Power Solar, Adani Power, AVAADA Solar Power,
+    Siemens Gamesa, SUNTAP Power, RENO Energy
+
+  Infrastructure / EPC:
+    L&T, NCC, Oriental Group
+
+  Government / state bodies:
+    MP Transmission, WRD (Water Resources Dept),
+    PHED (Public Health Engineering Dept), MPRDC
+    (MP Road Development Corp)
+
+  Education:
+    LNCT, SAGE University Bhopal
+
+
+================================================================
+2. THE THREE DIVISIONS
+================================================================
+
+----------------------------------------------------------------
+DIVISION 1 — SHAHI ENTERPRISES
+----------------------------------------------------------------
+Role:    Hardware / dealership arm. Wholesale trader and
+         service provider for surveying-sector instruments.
+Headline brand:  Leica.
+
+Product catalogue:
+  - Total Station
+  - Robotic Total Station
+  - DGPS (Differential GPS)
+  - Automatic Level Instrument
+  - Cable Locator
+  - Laser Distance Meter
+  - 3D Scanner
+  - Marine & Hydrographic equipment
+
+Why each instrument matters (use-case angle for site copy):
+  - Total Station / Robotic TS .... primary tool for layout,
+                                    setting-out, and
+                                    construction control
+  - DGPS .......................... centimeter-level GNSS
+                                    positioning over large
+                                    areas; flagship tool for
+                                    highways, solar farms
+  - Automatic / Digital Level ..... O.G.L. (Original Ground
+                                    Level) capture, road
+                                    profiling
+  - Cable Locator ................. underground utility
+                                    detection before digging
+  - Laser Distance Meter .......... fast indoor / short-range
+                                    distance capture
+  - 3D Scanner .................... point-cloud capture for
+                                    as-built / heritage /
+                                    complex geometry
+  - Marine & Hydrographic ......... bathymetric / underwater
+                                    survey (dam, river,
+                                    reservoir work)
+
+Cross-sell angle:
+  Buyers of Leica gear can also book Shahi Survey Academy
+  training on the same hardware they just purchased — turns
+  the dealership into a full lifecycle offer.
+
+----------------------------------------------------------------
+DIVISION 2 — SHAHI CONSTRUCTION
+----------------------------------------------------------------
+Role:           Field operations arm — surveying + civil
+                works on real infra sites.
+Established:    2021
+
+Service lines:
+  - Land surveying with topography analysis
+  - Topographic surveying
+  - Engineering surveying
+  - Construction surveying (layout / setting-out)
+  - Design services (structural engineering & architecture)
+  - DPR (Detailed Project Report) preparation
+  - Soil investigation
+  - Construction work
+  - Equipment rental
+  - Traffic survey
+  - Solar work (utility-scale solar site survey + build,
+    incl. pile alignment & ramming)
+
+Flagship completed projects (verbatim from site):
+
+  PROJECT A — 300 MW Solar Ramming, Bikaner, Rajasthan
+    - Area: 200 acres
+    - Scope: 1,50,000 (1.5 lakh) piles installed
+    - Timeline: 6 months
+    - Likely client cluster: TATA Power Solar / AVAADA /
+      Adani / Siemens Gamesa
+    - Use as headline case study — biggest single number
+      on the site.
+
+  PROJECT B — Dam Project
+    - Catchment area: 10,000 hectares
+    - Equipment: Leica DGPS + Total Station
+    - Timeline: 3 months
+    - Deliverables: contour map, river cross-section,
+      L-section
+    - Demonstrates marine/hydrographic + DGPS capability.
+
+  PROJECT C — Road Survey
+    - Length: 110 KM
+    - Scope: topography + centerline marking
+    - Equipment: DGPS + Total Station for alignment;
+      Auto-Level + Digital Level for O.G.L.
+    - Demonstrates linear-corridor survey capability.
+
+Ongoing project:
+  - Karnataka State Highway Improvement Project
+    Topographic surveys using DGPS. Pitch points: cm-level
+    precision, real-time data updates, large-scale
+    versatility.
+
+Gallery categories (use as case-study tag taxonomy):
+  Mining Survey, Road Topography Survey, Canal Survey,
+  Solar Alignment Survey, Solar Pile Casting,
+  Pile Alignment Documentation, DGPS Training,
+  WALMI TS Training, WRD JE TS Training
+
+----------------------------------------------------------------
+DIVISION 3 — SHAHI SURVEY ACADEMY
+----------------------------------------------------------------
+Role:   Training arm. Hands-on instruction on real Leica
+        gear used by the Construction division. Public-
+        facing "academy" brand on socials.
+
+Confirmed instrument courses (with price + duration):
+  - Total Station Training ..... ₹25,000 — 1 week
+  - DGPS Training .............. ₹30,000 — 1 week
+
+Other instruments taught (pricing not yet published):
+  - Auto Level
+  - Digital Level
+  - Drone
+
+Software courses:
+  - AutoCAD
+  - QGIS
+  - STAAD Pro
+  - MS Road
+  - Water Gems
+
+Curriculum / topics covered (from site):
+  - Leveling / Centring
+  - Topography & Contour Survey
+  - Shifting
+  - Layout
+  - Area & Volume calculations
+  - Remote Height measurement
+  - Data Collection
+
+Notable training engagements delivered (real B2B credentials):
+  - W.R.D. officers — Total Station training for SDO and
+    JE grades
+  - WALMI — Total Station training program
+  - WALMI — WRD JE Total Station training
+  - Oriental Group — DGPS hands-on practice for students
+
+Why this matters for credibility:
+  Government departments (WRD, WALMI) and a large infra
+  group (Oriental) sending their own people to be trained
+  here = de facto endorsement. Use as "Trusted by" on the
+  Academy page.
+
+Social handles all map to this division:
+  Facebook shahiacademy / Instagram shahi_survey_academy /
+  YouTube @shahisurveyacademy.
+
+
+================================================================
+3. SHAHI SURVEY (the public umbrella brand)
+================================================================
+
+Website:    shahisurvey.com (also shahisurvey.in for email)
+Role:       Public marketing site for the parent group.
+            All three divisions live as first-class sections
+            on this single site.
+
+The integrated story to tell on the site:
+  Shahi sells you the instrument (Enterprises), trains you
+  or your team on it (Academy), and uses the same instrument
+  daily on government and renewables-grade infra projects
+  (Construction). The same Leica gear appears in all three
+  contexts — that's the proof point.
+
+
+================================================================
+4. PUBLIC TESTIMONIALS (verbatim source attributions)
+================================================================
+
+  - Hariom Saran, Founder — Satyakabir
+    Praises the land-survey team as "meticulous and
+    accurate" with comprehensive evaluation.
+
+  - Sandeep Patel, Project Manager
+    Course material "carefully designed"; instructors
+    showed "knowledge and patience."
+
+  - Veer Mehra, Project Manager
+    DGPS training delivered "knowledge and abilities"
+    transferable to real-world application.
+
+
+================================================================
+5. HEADLINE NUMBERS WORTH SURFACING
+================================================================
+
+  - 300 MW solar project executed
+  - 200 acres surveyed in a single solar engagement
+  - 1,50,000 piles installed in 6 months
+  - 10,000 hectares dam catchment surveyed
+  - 110 KM road corridor surveyed
+  - 15+ named enterprise / government clients
+  - 3 active divisions under one roof
+  - 5 software stacks taught (AutoCAD, QGIS, STAAD Pro,
+    MS Road, Water Gems)
+  - 5 instrument types taught (Total Station, DGPS,
+    Auto Level, Digital Level, Drone)
+
+
+================================================================
+END
+================================================================

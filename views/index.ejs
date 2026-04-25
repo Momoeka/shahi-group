@@ -1,0 +1,25 @@
+<%- include('partials/head', { site }) %>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <%- include('partials/nav',          { site }) %>
+
+  <main id="main">
+    <%- include('partials/hero',         { site }) %>
+    <%- include('partials/about',        { site }) %>
+    <%- include('partials/services',     { site }) %>
+    <%- include('partials/projects',     { site }) %>
+    <%- include('partials/stats',        { site }) %>
+    <%- include('partials/testimonials', { site }) %>
+    <%- include('partials/contact',      { site }) %>
+  </main>
+
+  <%- include('partials/footer',       { site }) %>
+
+  <!-- Vendor: Lenis smooth scroll + GSAP + ScrollTrigger -->
+  <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
